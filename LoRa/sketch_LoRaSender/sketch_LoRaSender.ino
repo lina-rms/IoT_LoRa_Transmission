@@ -28,7 +28,7 @@ const float A = 0.001129148;
 const float B = 0.000234125;
 const float C = 0.0000000876741;
 
-int pinNTC = 20; // Pino analógico onde o NTC está conectado
+int pinNTC = 7; // Pino analógico onde o NTC está conectado
 int seriesResistor = 10000; // Resistor de 10K em série com o NTC
 
 void setup() {
